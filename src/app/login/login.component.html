@@ -1,0 +1,13 @@
+<section>
+    <h2>Login Form</h2>
+    <form [formGroup]="loginForm" (submit)="loginFun()">
+        <label>Username: </label>
+        <input type="text" name="uname" formControlName="username"><br><br>
+        <label>Password: </label>
+        <input type="password" name="pass" formControlName="password">
+        <br><br>
+        <input type="submit" value="LOGIN">
+        <input type="reset" value="Reset">
+
+    </form>
+</section>
